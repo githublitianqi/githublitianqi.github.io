@@ -2,8 +2,10 @@
   "name": "v3",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
+    "dev:dev": "vite --mode dev",
     "build": "vite build",
+    "build:sit": "vite build --mode sit",
+    "build:dev": "vite build --mode dev",
     "preview": "vite preview --port 4173",
     "test:unit": "vitest --environment jsdom"
   },
